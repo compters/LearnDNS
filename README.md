@@ -3,7 +3,7 @@ A simple Haskell DNS server to learn about DNS, currently takes a map of hosts /
 
 If you want a good Haskell DNS server then take a look at Kazu Yamamoto's DNS library <https://github.com/kazu-yamamoto/dns>. I used this as a reference whilst building and took a couple of data structures, but his approach uses conduit and I believe provides more complete functionality. 
 
-Build with a <http://www.ietf.org/rfc/rfc1035.txt>
+Brought to you by the RFC's <http://www.ietf.org/rfc/rfc1035.txt> and <http://www.ietf.org/rfc/rfc1034.txt>
 
 # Todo #
   * Respond with something other than A records
