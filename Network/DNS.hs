@@ -1,10 +1,10 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE RecordWildCards   #-}
 module Network.DNS (
-   module Network.DNS.Types
+     module Network.DNS.Types
+   , module Network.DNS.Serializer
    , dnsServer
    , dnsMapResolver
-
 ) where
 
 import           Control.Applicative        ((<$>))
